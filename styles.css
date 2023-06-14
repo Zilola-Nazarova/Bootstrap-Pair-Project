@@ -1,19 +1,15 @@
 body {
-  background-color: #e5e5e5!important;
+  background-color: #e5e5e5 !important;
 }
 
 nav {
- background-color: #fff;
- box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
 .poppins {
   font-family: 'Poppins', sans-serif;
 }
-
-/* .w-400 {
-  font-weight: 400;
-} */
 
 .w-500 {
   font-weight: 500;
@@ -32,10 +28,6 @@ nav {
   border-radius: 0 0 0 8rem;
 }
 
-#headline > div {
-
-}
-
 #headline h1 {
   font-size: 3rem;
 }
@@ -46,7 +38,6 @@ nav {
 
 #projects {
   padding: 10% 10%;
-  /* background-color: #e5e5e5; */
 }
 
 #projects img {
@@ -58,7 +49,7 @@ nav {
 }
 
 .list-inline-item.badge {
-  background-color:  #f7f7f9;
+  background-color: #f7f7f9;
   color: black;
 }
 
@@ -77,6 +68,18 @@ nav {
 #about-me .float-right {
   color: #344563;
   font-size: 20px;
+}
+
+#about-me img.bi[src*="downarrow"] {
+  width: 1rem;
+}
+
+#about-me img.bi[src*="Ellipse"] {
+  width: 3.2rem;
+}
+
+#about-me img.bi[src*="sidearrow"] {
+  width: 0.5rem;
 }
 
 .custom_width {
