@@ -56,3 +56,44 @@ nav {
 #projects .card {
   border-radius: 1.5rem;
 }
+
+.list-inline-item.badge {
+  background-color:  #f7f7f9;
+  color: black;
+}
+
+#about-me {
+  background-color: #fff;
+  width: 100%;
+  padding: 10% 10%;
+  border-radius: 0 8rem 0 0;
+}
+
+#about-me button {
+  background-color: #fff;
+  color: #396df2;
+}
+
+#about-me .float-right {
+  color: #344563;
+  font-size: 20px;
+}
+
+.custom_width {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  padding: 10% 30%;
+  background-color: #6070ff;
+  background-image: url(./images/contact\ form\ background\ shapes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8rem 0 0 0;
+}
+
+#contact button {
+  color: #396df2;
+}
